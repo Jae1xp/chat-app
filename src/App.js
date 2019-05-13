@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import MessagesList from './components/MessagesList';
 
-function App() {
-  return (
-    <div className="App">
-      hello
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <MessagesList />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
